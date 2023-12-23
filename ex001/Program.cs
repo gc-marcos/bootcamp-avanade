@@ -1,45 +1,97 @@
 ﻿using ex001.Models;
 
-string opcao;
-bool exibirMenu = true;
+List<string> listaString = new List<string>();
 
-while (exibirMenu)
-{
-    Console.Clear();
-    Console.WriteLine("Digitema sua opção:");
-    Console.WriteLine("1 - Cadastrar cliente.");
-    Console.WriteLine("2 - Buscar cliente.");
-    Console.WriteLine("3 - Apagar cliente.");
-    Console.WriteLine("4 - Encerrar.");
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
 
-    opcao = Console.ReadLine();
+Console.WriteLine($"Itens na milista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Add("SC");
 
-    switch (opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastrar cliente.");
-            break;
+Console.WriteLine($"Itens na milista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Remove("MG");
 
-        case "2":
-            Console.WriteLine("Buscar cliente.");
-            break;
+Console.WriteLine($"Itens na milista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-        case "3":
-            Console.WriteLine("Apagar cliente.");
-            break;
 
-        case "4":
-            Console.WriteLine("Encerrar.");
-            exibirMenu = false;
-            break;
+// Console.WriteLine("Percorrendo a Lista com FOR!");
+// for(int contador = 0; contador < listaString.Count; contador++) {
+//     Console.WriteLine($"Posição da Lista {contador} - {listaString[contador]}");
+// }
 
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
-    }
-}
+// Console.WriteLine("Percorrendo a Lista com FOREACHH");
+// int contadorForeach = 0;
+// foreach(string item in listaString) {
+//     Console.WriteLine($"Posição do Lista {contadorForeach} - {item}");
+//     contadorForeach++;
+// }
 
-Console.WriteLine("O programa encerrou!!");
+// int[] arrayInteiros = new int[3];
+
+// arrayInteiros[0] = 23;
+// arrayInteiros[1] = 9;
+// arrayInteiros[2] = 45;
+
+// int[] arrayInteirosDodrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDodrado, arrayInteiros.Length);
+
+// // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Console.WriteLine("Percorrendo o Array com FOR");
+// for(int contador = 0; contador < arrayInteiros.Length; contador++) {
+//     Console.WriteLine($"Posição do numero {contador} - {arrayInteiros[contador]}");
+// }
+
+// Console.WriteLine("Percorrendo o Array com o FOREACH");
+// int contadorForeach = 0;
+// foreach(int valor in arrayInteiros) {
+//     Console.WriteLine($"Posição do numero {contadorForeach} - {valor}");
+//     contadorForeach++;
+// }
+
+
+// string opcao;
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digitema sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente.");
+//     Console.WriteLine("2 - Buscar cliente.");
+//     Console.WriteLine("3 - Apagar cliente.");
+//     Console.WriteLine("4 - Encerrar.");
+
+//     opcao = Console.ReadLine();
+
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastrar cliente.");
+//             break;
+
+//         case "2":
+//             Console.WriteLine("Buscar cliente.");
+//             break;
+
+//         case "3":
+//             Console.WriteLine("Apagar cliente.");
+//             break;
+
+//         case "4":
+//             Console.WriteLine("Encerrar.");
+//             exibirMenu = false;
+//             break;
+
+//         default:
+//             Console.WriteLine("Opção inválida");
+//             break;
+//     }
+// }
+
+// Console.WriteLine("O programa encerrou!!");
 
 // int soma = 0, numero = 0;
 

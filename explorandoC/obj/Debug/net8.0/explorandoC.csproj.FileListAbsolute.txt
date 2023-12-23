@@ -1,0 +1,15 @@
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.GeneratedMSBuildEditorConfig.editorconfig
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.AssemblyInfoInputs.cache
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.AssemblyInfo.cs
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.csproj.CoreCompileInputs.cache
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.sourcelink.json
+/home/codermarcos/Documentos/DIO/explorandoC/bin/Debug/net8.0/explorandoC
+/home/codermarcos/Documentos/DIO/explorandoC/bin/Debug/net8.0/explorandoC.deps.json
+/home/codermarcos/Documentos/DIO/explorandoC/bin/Debug/net8.0/explorandoC.runtimeconfig.json
+/home/codermarcos/Documentos/DIO/explorandoC/bin/Debug/net8.0/explorandoC.dll
+/home/codermarcos/Documentos/DIO/explorandoC/bin/Debug/net8.0/explorandoC.pdb
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.dll
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/refint/explorandoC.dll
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.pdb
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/explorandoC.genruntimeconfig.cache
+/home/codermarcos/Documentos/DIO/explorandoC/obj/Debug/net8.0/ref/explorandoC.dll

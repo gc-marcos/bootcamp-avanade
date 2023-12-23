@@ -12,3 +12,4 @@
 /home/codermarcos/Documentos/DIO/ex001/obj/Debug/net8.0/ex001.pdb
 /home/codermarcos/Documentos/DIO/ex001/obj/Debug/net8.0/ex001.genruntimeconfig.cache
 /home/codermarcos/Documentos/DIO/ex001/obj/Debug/net8.0/ref/ex001.dll
+/home/codermarcos/Documentos/DIO/ex001/obj/Debug/net8.0/ex001.sourcelink.json
